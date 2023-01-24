@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    /* font-family: fantasy; */
+    text-decoration: none;
+}
+.menu{
+    height: 50px;
+    width: 100%;
+    background-color: #27262b;
+    text-align: center;
+    color: white;
+    position: relative;
+    padding-top: 20px;
+}
+.menu-gravity{
+    margin-left: 30vh;
+    position: absolute;
+}
+.other li{
+    position: absolute;
+}
+.about{
+    margin-left: 50%;
+}
+.careers{
+    margin-left: 65%;
+}
+.contact{
+    margin-left: 80%;
+}
+.slide{
+    background: 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(../img/slide.jpg);
+    background-size: cover;
+    border: 100 50%;
+    height: 60vh;
+}
+.border{
+    text-align: center;
+    align-items: center;
+    color: white;
+    text-size-adjust: 50px;
+    margin-bottom: 20%;
+    text-shadow: 1px;
+}
+.border img{
+    padding-bottom: 30px;
+}
+.border h1{
+    padding-bottom: 30px;
+    font-size: 45px;
+}
+.border button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #4eaaf5;
+    color: white;
+}
+
