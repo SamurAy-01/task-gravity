@@ -1,6 +1,6 @@
 *{
     margin: 0%;
-    /* font-family: fantasy; */
+    font-family: sans-serif;
     text-decoration: none;
 }
 .menu{
@@ -10,23 +10,33 @@
     text-align: center;
     color: white;
     position: relative;
-    padding-top: 20px;
+    padding-top: 25px;
+    vertical-align: middle;
+    align-items: center;
 }
 .menu-gravity{
-    margin-left: 30vh;
+    font-size: x-large;
+    margin-left: 20%;
     position: absolute;
+}
+.other{
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .other li{
     position: absolute;
 }
 .about{
-    margin-left: 50%;
-}
-.careers{
+    font-family: sans-serif;
     margin-left: 65%;
 }
+.careers{
+    font-family: sans-serif;
+    margin-left: 70%;
+}
 .contact{
-    margin-left: 80%;
+    font-family: sans-serif;
+    margin-left: 77%;
 }
 .slide{
     background: 
@@ -37,7 +47,7 @@
         url(../img/slide.jpg);
     background-size: cover;
     border: 100 50%;
-    height: 60vh;
+    height: 55vh;
 }
 .border{
     text-align: center;
@@ -51,14 +61,49 @@
     padding-bottom: 30px;
 }
 .border h1{
+    font-family: sans-serif;
     padding-bottom: 30px;
     font-size: 45px;
 }
 .border button{
-    width: 200px;
+    font-family: sans-serif;
+    width: 250px;
     height: 50px;
     border-radius: 30px;
-    background-color: #4eaaf5;
+    background-color: #65c6b5;
     color: white;
+}
+.all{
+    position: absolute;
+    padding-left: 30%;
+    padding-right: 30%; 
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+.fair{
+    font-family: sans-serif;
+    margin-top: 50px;
+    position: absolute;
+    text-align: center;
+}
+.creative{
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-left: 30vh;
+    position: absolute;
+    text-align: center;
+    
+}
+.slick{
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-left: 60vh;
+    position: absolute;
+    text-align: center;
+}
+.all h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
